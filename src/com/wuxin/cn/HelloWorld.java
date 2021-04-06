@@ -17,7 +17,7 @@ public class HelloWorld {
         System.out.println("DATE = " + DATE);
         rr2.add(1);
         System.out.println(rr2);
-        me2();
+        me2(4);
         if (rr2 == null) {
 
         }
@@ -29,16 +29,18 @@ public class HelloWorld {
         }
 
 
+        for (int i = 0; i < 100; i++) {
+            me2(3);
+            System.out.println(i);
+        }
 
-                
-                
+
+
     }
 
 
-    public static void me2() {
-        System.out.println();
+    public static void me2(int a) {
         System.out.println("nihao");
-        System.out.println();
-        System.out.println();
+            System.out.println(a);
     }
 }
